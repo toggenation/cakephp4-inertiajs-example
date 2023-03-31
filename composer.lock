@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d232b2c9f5e486f3e1e238e8b4e4cc35",
+    "content-hash": "774115254414722a9ebc69fbff83bd84",
     "packages": [
         {
             "name": "cakephp/cakephp",
@@ -2205,22 +2205,23 @@
         },
         {
             "name": "cakephp/cakephp-codesniffer",
-            "version": "4.6.0",
+            "version": "5.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/cakephp-codesniffer.git",
-                "reference": "5a64e6e6434128f6a1549318de86c564737d5cda"
+                "reference": "0543c545815e63941337a49643fab694ae0bb8e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/cakephp-codesniffer/zipball/5a64e6e6434128f6a1549318de86c564737d5cda",
-                "reference": "5a64e6e6434128f6a1549318de86c564737d5cda",
+                "url": "https://api.github.com/repos/cakephp/cakephp-codesniffer/zipball/0543c545815e63941337a49643fab694ae0bb8e0",
+                "reference": "0543c545815e63941337a49643fab694ae0bb8e0",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.2.0",
-                "slevomat/coding-standard": "^6.3.6 || ^7.0 || ^8.0",
-                "squizlabs/php_codesniffer": "^3.6"
+                "phpstan/phpdoc-parser": "^1.4.5",
+                "slevomat/coding-standard": "^8.4",
+                "squizlabs/php_codesniffer": "^3.7.1"
             },
             "require-dev": {
                 "phpunit/phpunit": "^7.1"
@@ -2253,7 +2254,7 @@
                 "issues": "https://github.com/cakephp/cakephp-codesniffer/issues",
                 "source": "https://github.com/cakephp/cakephp-codesniffer"
             },
-            "time": "2022-07-04T03:29:58+00:00"
+            "time": "2023-03-05T20:34:52+00:00"
         },
         {
             "name": "cakephp/debug_kit",
@@ -5994,5 +5995,5 @@
         "php": ">=7.4"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.3.0"
 }
