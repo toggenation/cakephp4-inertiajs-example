@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Layout from '../../layouts/Layout';
 import axios from 'axios';
+import Alert from '../../components/Alert';
 /**
  * This view component will be rendered when visiting /pages/greet
  * when your application has been setup with inertiajs.
@@ -29,7 +30,7 @@ function Items(props) {
     const message = props.flash.message || '';
 
     return <div><h1>Hello world From Items/Index!</h1>
-        <p>{message}</p>
+        <Alert message={message} />
         <ul>
             {props.items && props.items.map(function (item) {
                 return <li key={item}>{item}</li>

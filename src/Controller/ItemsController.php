@@ -34,8 +34,11 @@ class ItemsController extends AppController
     {
         $items = array_rand(range(1, 1000), 3);
         $this->Flash->error(
-            'This is a flash from the ' .
+            __(
+                'This is a flash from {0}:{1}',
+                $this->getRequest()->getParam('controller'),
                 $this->getRequest()->getParam('action')
+            )
         );
         $this->set('component', 'Items/Index');
 

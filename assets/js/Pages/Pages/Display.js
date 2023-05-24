@@ -9,6 +9,7 @@ function Display() {
 
     return <>
         <h2>Hello world!</h2>
+        <p>This is an example of using Full Page InertiaJS in CakePHP 4</p>
     </>
 }
 
